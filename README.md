@@ -4,13 +4,22 @@ This project aims to find answer the question of century. Who is the better : Ro
 
 ## Used techs
 
+1- React
+2- TypeScript
+3- Tailwind CSS
 
 ## To-Do List of project
 
 - [ ] Styling
-  - [ ] Drawing general plan
+  - [x] Drawing general plan
+  - [ ] Header
+  - [ ] Main
+  - [ ] Buttons
 - [ ] How to make global counter
+- [ ] Header
 - [ ] Install Tailwind
+- [ ] Main
+- [ ] Support Buttons
 
 ### Completed Tasks
 
