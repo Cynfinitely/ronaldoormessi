@@ -2,11 +2,18 @@
 
 This project aims to find answer the question of century. Who is the better : Ronaldo or Messi? You can support you idol by clicking button under the name of it. It has got global counter!
 
-## To-Do List of project 
+## Used techs
 
-- [] Styling
+
+## To-Do List of project
+
+- [ ] Styling
   - [ ] Drawing general plan
-- [] How to make global counter
+- [ ] How to make global counter
+- [ ] Install Tailwind
 
-### Complated Tasks
+### Completed Tasks
+
+- [x] First Init
+- [ ] 
 
