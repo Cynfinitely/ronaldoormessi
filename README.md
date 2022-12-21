@@ -17,12 +17,11 @@ This project aims to find answer the question of century. Who is the better : Ro
   - [ ] Buttons
 - [ ] How to make global counter
 - [ ] Header
-- [ ] Install Tailwind
 - [ ] Main
 - [ ] Support Buttons
 
 ### Completed Tasks
 
 - [x] First Init
-- [ ] 
+- [x] Install Tailwind
 
