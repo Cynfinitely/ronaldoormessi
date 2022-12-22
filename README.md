@@ -19,6 +19,7 @@ This project aims to find answer the question of century. Who is the better : Ro
 - [ ] Header
 - [ ] Main
 - [ ] Support Buttons
+- [ ] How to make 3D of players , Spline !!
 
 ### Completed Tasks
 
