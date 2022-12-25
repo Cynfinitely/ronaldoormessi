@@ -7,6 +7,7 @@ This project aims to find answer the question of century. Who is the better : Ro
 1- React
 2- TypeScript
 3- Tailwind CSS
+4- Redux Toolkit
 
 ## To-Do List of project
 
