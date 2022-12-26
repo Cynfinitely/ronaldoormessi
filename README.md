@@ -21,6 +21,7 @@ This project aims to find answer the question of century. Who is the better : Ro
 - [ ] Main
 - [ ] Support Buttons
 - [ ] Buy me a coffee support
+- [ ] Marketing ?
 - [ ] How to make 3D of players , Spline !!
 
 ### Completed Tasks
