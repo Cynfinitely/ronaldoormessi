@@ -20,6 +20,7 @@ This project aims to find answer the question of century. Who is the better : Ro
 - [ ] Header
 - [ ] Main
 - [ ] Support Buttons
+- [ ] Stats?
 - [ ] Buy me a coffee support
 - [ ] Marketing ?
 - [ ] How to make 3D of players , Spline !!
