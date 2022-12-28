@@ -20,6 +20,8 @@ This project aims to find answer the question of century. Who is the better : Ro
 - [ ] Header
 - [ ] Main
 - [ ] Support Buttons
+  - [ ] "x times supported"
+  - [ ] you supported ronaldo/messi (local or database)
 - [ ] Stats?
 - [ ] Buy me a coffee support
 - [ ] Marketing ?
