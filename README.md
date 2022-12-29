@@ -22,6 +22,7 @@ This project aims to find answer the question of century. Who is the better : Ro
 - [ ] Support Buttons
   - [ ] "x times supported"
   - [ ] you supported ronaldo/messi (local or database)
+  - [ ] gifs and animations after button presssed?
 - [ ] Stats?
 - [ ] Buy me a coffee support
 - [ ] Marketing ?
