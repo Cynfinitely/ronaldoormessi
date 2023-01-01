@@ -25,6 +25,7 @@ This project aims to find answer the question of century. Who is the better : Ro
   - [ ] gifs and animations after button presssed?
 - [ ] Stats?
 - [ ] Buy me a coffee support
+- [ ] Contact me or support project part
 - [ ] Marketing ?
 - [ ] How to make 3D of players , Spline !!
 - [ ] Deadline 07.01.23
@@ -33,4 +34,3 @@ This project aims to find answer the question of century. Who is the better : Ro
 
 - [x] First Init
 - [x] Install Tailwind
-
