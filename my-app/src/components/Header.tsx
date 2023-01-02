@@ -1,10 +1,11 @@
 import React from 'react'
+import "../assets/css/Header.css"
 
 const Header = () => {
     return (
-        <div className='rounded-full py-3 px-6 bg-green-200 text-center'>
+        <div className='header rounded-full py-3 px-6  text-center shadow-sky-800 text-2xl'>
             <div>
-                <h1>Ronaldo V Messi</h1>
+                <h1>Ronaldo Vs Messi</h1>
             </div>
         </div>
     )

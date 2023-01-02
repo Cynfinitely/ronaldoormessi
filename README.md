@@ -13,18 +13,18 @@ This project aims to find answer the question of century. Who is the better : Ro
 
 - [ ] Styling
   - [x] Drawing general plan
-  - [ ] Header
+  - [X] Header
   - [ ] Main
   - [ ] Buttons
 - [ ] How to make global counter
 - [ ] Header
+  - [ ] VS icon maybe?
 - [ ] Main
 - [ ] Support Buttons
   - [ ] "x times supported"
   - [ ] you supported ronaldo/messi (local or database)
   - [ ] gifs and animations after button presssed?
 - [ ] Stats?
-- [ ] Buy me a coffee support
 - [ ] Contact me or support project part
 - [ ] Marketing ?
 - [ ] How to make 3D of players , Spline !!
@@ -34,3 +34,4 @@ This project aims to find answer the question of century. Who is the better : Ro
 
 - [x] First Init
 - [x] Install Tailwind
+- [X] Buy me a coffee support
