@@ -11,8 +11,8 @@ const Main = () => {
     const dispatch = useDispatch()
 
     return (
-        <div>
-            <div className='flex flex-row justify-evenly'>
+        <div className='align-middle '>
+            <div className='compare flex flex-row justify-evenly'>
                 <div className='py-2 m-2'>
                     <img src={Ronaldo} alt="Ronaldo" />
                     <button className='bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded'
