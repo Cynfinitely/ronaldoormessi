@@ -11,15 +11,11 @@ This project aims to find answer the question of century. Who is the better : Ro
 
 ## To-Do List of project
 
-- [ ] Styling
-  - [x] Drawing general plan
-  - [X] Header
-  - [ ] Main
-  - [ ] Buttons
 - [ ] How to make global counter
 - [ ] Header
   - [ ] VS icon maybe?
 - [ ] Main
+- [ ] Footer
 - [ ] Support Buttons
   - [ ] "x times supported"
   - [ ] you supported ronaldo/messi (local or database)
@@ -35,4 +31,9 @@ This project aims to find answer the question of century. Who is the better : Ro
 
 - [x] First Init
 - [x] Install Tailwind
-- [X] Buy me a coffee support
+- [x] Buy me a coffee support
+  - [x] Styling
+  - [x] Drawing general plan
+  - [x] Header
+  - [x] Main
+  - [x] Buttons
