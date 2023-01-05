@@ -1,17 +1,14 @@
-import { collection, getDocs } from "firebase/firestore/lite";
 import { useEffect } from "react";
+import { collection, getDocs } from "firebase/firestore";
 
-import { firestore } from "../firebase/firebase";
+import db from "../firebase/firebase";
 
-async function getCities(firestore: any) {
-  const citiesCol = collection(firestore, "messiLikes");
-  const citySnapshot = await getDocs(citiesCol);
-  const cityList = citySnapshot.docs.map((doc) => doc.data());
+async function getCities(db: any) {
+  const citiesCol: any = collection(db, "messiLikes");
+  const citySnapshot: any = await getDocs(citiesCol);
+  const cityList = citySnapshot.docs.map((doc: any) => doc.data());
   console.log(cityList);
   console.log(cityList[0].likes);
-  console.log(
-    collection(firestore, "ronaldoLikes", "xymfpVTO7Ip2jZJViXHz", "likes")
-  );
 }
 
 export default getCities;
