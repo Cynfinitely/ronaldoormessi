@@ -2,7 +2,8 @@ import "./App.css";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
-import handleSubmit from "./handles/handlesubmit";
+import { firestore } from "./firebase/firebase";
+import getCities from "./handlers/fireHandler";
 import { useRef } from "react";
 
 function App() {
@@ -10,20 +11,19 @@ function App() {
 
   const submithandler = (e: any) => {
     e.preventDefault();
-    handleSubmit(dataRef.current.value);
-    dataRef.current.value = "";
+    console.log(firestore);
+    getCities(firestore);
   };
   return (
     <div className="container flex flex-col">
       <Header />
       <Main />
-      <form onSubmit={submithandler}>
-        <input
-          type="text"
-          ref={dataRef}
-        />
-        <button type="submit">Save</button>
-      </form>
+      <button
+        type="submit"
+        onClick={submithandler}>
+        TEST
+      </button>
+
       <Footer />
     </div>
   );
