@@ -8,6 +8,8 @@ import incrementRonaldo from "./handlers/ronaldoIncrementHandler";
 import { useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "./redux/store";
+import { ronaldoIncrement } from "./redux/slices/ronaldoCounterSlice";
+import { messiIncrement } from "./redux/slices/messiCounterReducer";
 
 function App() {
   const ronaldoCount = useSelector(
@@ -32,13 +34,13 @@ function App() {
       <button
         className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
         type="submit"
-        onClick={incrementhandler}>
+        onClick={() => dispatch(messiIncrement())}>
         Messi
       </button>
       <button
         className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
         type="submit"
-        onClick={incrementRonaldo}>
+        onClick={() => dispatch(ronaldoIncrement())}>
         Ronaldo
       </button>
 
