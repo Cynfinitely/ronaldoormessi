@@ -24,7 +24,7 @@ This project aims to find answer the question of century. Who is the better : Ro
 - [ ] Contact me or support project part
 - [ ] Marketing ?
 - [ ] How to make 3D of players , Spline !!
-- [ ] Deadline 10.01.23
+- [ ] Deadline 11.01.23
 - [ ] Pomodoro spent : 7
 
 ### Completed Tasks
