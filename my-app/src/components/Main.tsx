@@ -42,7 +42,7 @@ const Main = () => {
               onClick={() => dispatch(ronaldoIncrement())}>
               Support Ronaldo
             </button>
-            <p> Ronaldo Supported {ronaldoCount} time</p>
+            <p> Ronaldo Supported {ronaldoCount} times</p>
           </div>
         </div>
         <div className="py-2 m-2 flex items-center">
@@ -56,7 +56,7 @@ const Main = () => {
               onClick={() => dispatch(messiIncrement())}>
               Support Messi
             </button>
-            <p> Messi Supported {messiCount} time</p>
+            <p> Messi Supported {messiCount} times</p>
           </div>
         </div>
       </div>

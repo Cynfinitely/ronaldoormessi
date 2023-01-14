@@ -16,7 +16,7 @@ This project aims to find answer the question of century. Who is the better : Ro
 - [ ] Main
 - [ ] Footer
 - [ ] Support Buttons
-  - [ ] "x times supported"
+  - [x] "x times supported"
   - [ ] you supported ronaldo/messi (local or database)
   - [ ] gifs and animations after button presssed?
 - [ ] Stats?
