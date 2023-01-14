@@ -1,19 +1,32 @@
 import "../assets/css/Main.css";
 import Ronaldo from "../assets/images/Ronaldo.jpg";
 import Messi from "../assets/images/Messi.jpg";
-import type { RootState } from "../redux/store";
+import type { AppDispatch, RootState } from "../redux/store";
 import { useSelector, useDispatch } from "react-redux";
-import { ronaldoIncrement } from "../redux/slices/ronaldoCounterSlice";
-import { messiIncrement } from "../redux/slices/messiCounterReducer";
+import {
+  fetchMessiLikes,
+  fetchRonaldoLikes,
+  messiIncrement,
+  ronaldoIncrement,
+} from "../redux/slices/counterReducer";
+import { useEffect } from "react";
 
 const Main = () => {
   const ronaldoCount = useSelector(
-    (state: RootState) => state.ronaldoCounter.value
+    (state: RootState) => state.counter.ronaldoValue
   );
   const messiCount = useSelector(
-    (state: RootState) => state.messiCounter.value
+    (state: RootState) => state.counter.messiValue
   );
-  const dispatch = useDispatch();
+  const status = useSelector((state: RootState) => state.counter.status);
+  const dispatch = useDispatch<AppDispatch>();
+
+  useEffect(() => {
+    if (status === "idle") {
+      dispatch(fetchMessiLikes());
+      dispatch(fetchRonaldoLikes());
+    }
+  }, [status, dispatch]);
 
   return (
     <div className="h-full">

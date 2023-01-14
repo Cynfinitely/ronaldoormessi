@@ -1,11 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import ronaldoCounterReducer from "./slices/ronaldoCounterSlice";
-import messiCounterReducer from "./slices/messiCounterReducer";
+import counterReducer from "./slices/counterReducer";
 
 export const store = configureStore({
   reducer: {
-    ronaldoCounter: ronaldoCounterReducer,
-    messiCounter: messiCounterReducer,
+    counter: counterReducer,
   },
 });
 
