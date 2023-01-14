@@ -11,8 +11,6 @@ This project aims to find answer the question of century. Who is the better : Ro
 
 ## To-Do List of project
 
-- [ ] Header
-  - [ ] VS icon maybe?
 - [ ] Main
 - [ ] Footer
 - [ ] Support Buttons
@@ -38,3 +36,5 @@ This project aims to find answer the question of century. Who is the better : Ro
   - [x] Main
   - [x] Buttons
 - [x] How to make global counter
+- [x] Header
+  - [x] VS icon maybe?
