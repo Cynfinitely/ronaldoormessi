@@ -11,14 +11,12 @@ This project aims to find answer the question of century. Who is the better : Ro
 
 ## To-Do List of project
 
-- [ ] Main
-- [ ] Footer
 - [ ] Support Buttons
+
   - [x] "x times supported"
-  - [ ] you supported ronaldo/messi (local or database)
+  - [x] you supported ronaldo/messi (local or database)
   - [ ] gifs and animations after button presssed?
-- [ ] Stats?
-- [ ] Contact me or support project part
+
 - [ ] Marketing ?
 - [ ] Deadline 15.01.23
 - [ ] Pomodoro spent : 7
@@ -39,3 +37,7 @@ This project aims to find answer the question of century. Who is the better : Ro
 - [x] Header
   - [x] VS icon maybe?
 - [x] How to make 3D of players , Spline !
+- [x] Main
+- [x] Footer
+- [x] Stats?
+- [x] Contact me or support project part
