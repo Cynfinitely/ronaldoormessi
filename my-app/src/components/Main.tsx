@@ -4,13 +4,10 @@ import Messi3D from "../assets/images/messi3D.png";
 import type { AppDispatch, RootState } from "../redux/store";
 import { useSelector, useDispatch } from "react-redux";
 import {
-  fetchMessiLikes,
-  fetchRonaldoLikes,
   messiIncrement,
-  refreshStatus,
   ronaldoIncrement,
 } from "../redux/slices/counterReducer";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Main = () => {
   const [ronaldoButtonClicked, setRonaldoButtonClicked] =
@@ -22,7 +19,6 @@ const Main = () => {
   const messiCount = useSelector(
     (state: RootState) => state.counter.messiValue
   );
-  const status = useSelector((state: RootState) => state.counter.status);
   const dispatch = useDispatch<AppDispatch>();
 
   const handleRonaldoButtonClick = () => {

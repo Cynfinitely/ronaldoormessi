@@ -11,15 +11,13 @@ This project aims to find answer the question of century. Who is the better : Ro
 
 ## To-Do List of project
 
-- [ ] Marketing ?
 - [ ] Deploy
-- [ ] Deadline 15.01.23
-- [ ] Pomodoro spent : 7
-- [ ] LinkedIn Post
-- [ ] Responsive work
+- [x] Deadline 15.01.23
+- [x] Pomodoro spent : 13
 
 ### Completed Tasks
 
+- [x] Responsive work
 - [x] First Init
 - [x] Install Tailwind
 - [x] Buy me a coffee support
