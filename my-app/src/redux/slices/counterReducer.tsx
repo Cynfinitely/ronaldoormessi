@@ -35,26 +35,41 @@ export const fetchRonaldoLikes = createAsyncThunk(
   }
 );
 
+export const messiIncrement = createAsyncThunk("messiIncrement", async () => {
+  const messiRef = doc(db, "messiLikes", "1");
+
+  await updateDoc(messiRef, {
+    likes: increment(1),
+  });
+
+  const messiCol: any = collection(db, "messiLikes");
+  const messiSnapshot: any = await getDocs(messiCol);
+  const messiList = messiSnapshot.docs.map((doc: any) => doc.data());
+  return messiList[0].likes;
+});
+
+export const ronaldoIncrement = createAsyncThunk(
+  "ronaldoIncrement",
+  async () => {
+    const ronaldoRef = doc(db, "ronaldoLikes", "1");
+
+    await updateDoc(ronaldoRef, {
+      likes: increment(1),
+    });
+
+    const ronaldoCol: any = collection(db, "ronaldoLikes");
+    const ronaldoSnapshot: any = await getDocs(ronaldoCol);
+    const ronaldoList = ronaldoSnapshot.docs.map((doc: any) => doc.data());
+    return ronaldoList[0].likes;
+  }
+);
+
 export const counterSlice = createSlice({
   name: "counter",
   initialState,
   reducers: {
-    messiIncrement: () => {
-      const messiRef = doc(db, "messiLikes", "1");
-
-      updateDoc(messiRef, {
-        likes: increment(1),
-      });
-      console.log("GJ!");
-    },
-    ronaldoIncrement: () => {
-      const ronaldoRef = doc(db, "ronaldoLikes", "1");
-
-      updateDoc(ronaldoRef, {
-        likes: increment(1),
-      });
-
-      console.log("You are Succ!");
+    refreshStatus: (state: any) => {
+      state.status = "idle";
     },
   },
   extraReducers: (builder) => {
@@ -80,11 +95,33 @@ export const counterSlice = createSlice({
       .addCase(fetchRonaldoLikes.rejected, (state, action) => {
         state.status = "failed";
         state.error = action.error.message;
+      })
+      .addCase(messiIncrement.fulfilled, (state, action) => {
+        state.status = "successful";
+        state.messiValue = action.payload;
+      })
+      .addCase(messiIncrement.rejected, (state, action) => {
+        state.status = "failed";
+        state.error = action.error.message;
+      })
+      .addCase(messiIncrement.pending, (state, action) => {
+        state.status = "loading";
+      })
+      .addCase(ronaldoIncrement.fulfilled, (state, action) => {
+        state.status = "successful";
+        state.ronaldoValue = action.payload;
+      })
+      .addCase(ronaldoIncrement.rejected, (state, action) => {
+        state.status = "failed";
+        state.error = action.error.message;
+      })
+      .addCase(ronaldoIncrement.pending, (state, action) => {
+        state.status = "loading";
       });
   },
 });
 
 // Action creators are generated for each case reducer function
-export const { messiIncrement, ronaldoIncrement } = counterSlice.actions;
+export const { refreshStatus } = counterSlice.actions;
 
 export default counterSlice.reducer;

@@ -7,11 +7,15 @@ import {
   fetchMessiLikes,
   fetchRonaldoLikes,
   messiIncrement,
+  refreshStatus,
   ronaldoIncrement,
 } from "../redux/slices/counterReducer";
 import { useEffect, useState } from "react";
 
 const Main = () => {
+  const [ronaldoButtonClicked, setRonaldoButtonClicked] =
+    useState<boolean>(false);
+  const [messiButtonClicked, setMessiButtonClicked] = useState<boolean>(false);
   const ronaldoCount = useSelector(
     (state: RootState) => state.counter.ronaldoValue
   );
@@ -20,24 +24,15 @@ const Main = () => {
   );
   const status = useSelector((state: RootState) => state.counter.status);
   const dispatch = useDispatch<AppDispatch>();
-  const [ronaldoButtonClicked, setRonaldoButtonClicked] = useState(false);
-  const [messiButtonClicked, setMessiButtonClicked] = useState(false);
 
-  const handleRonaldoButtonClick = () => {
-    setRonaldoButtonClicked(true);
-    dispatch(ronaldoIncrement());
+  const handleRonaldoButtonClick = async () => {
+    const ronaldo = await dispatch(ronaldoIncrement());
+    const setRonaldo = await setRonaldoButtonClicked(true);
   };
   const handleMessiButtonClick = () => {
     setMessiButtonClicked(true);
     dispatch(messiIncrement());
   };
-
-  useEffect(() => {
-    if (status === "idle") {
-      dispatch(fetchMessiLikes());
-      dispatch(fetchRonaldoLikes());
-    }
-  }, [status, dispatch]);
 
   return (
     <div className="h-full">

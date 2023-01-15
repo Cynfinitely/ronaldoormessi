@@ -4,10 +4,17 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { store } from "./redux/store";
 import { Provider } from "react-redux";
+import {
+  fetchRonaldoLikes,
+  fetchMessiLikes,
+} from "./redux/slices/counterReducer";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
+
+store.dispatch(fetchMessiLikes());
+store.dispatch(fetchRonaldoLikes());
 
 root.render(
   <Provider store={store}>
