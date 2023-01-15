@@ -33,13 +33,15 @@ const Main = () => {
   return (
     <div className="h-full">
       <div className="compare flex flex-row justify-evenly h-full">
-        <div className="py-2 m-2 flex items-center">
-          <div className="flex flex-col items-center">
+        <div className="py-2 m-2 flex flex-col items-center content-evenly">
+          <div className="m-2">
             <img
               src={Ronaldo3D}
               alt="Ronaldo"
-              className=""
+              className="ronaldo"
             />
+          </div>
+          <div className="flex flex-col items-center">
             <button
               className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
               onClick={() => dispatch(ronaldoIncrement())}>
@@ -48,12 +50,15 @@ const Main = () => {
             <p> Ronaldo Supported {ronaldoCount} times</p>
           </div>
         </div>
-        <div className="py-2 m-2 flex items-center">
-          <div className="flex flex-col items-center">
+        <div className="py-2 m-2 flex flex-col items-center content-evenly">
+          <div className="m-2">
             <img
               src={Messi3D}
               alt="Messi"
+              className="messi"
             />
+          </div>
+          <div className="flex flex-col items-center">
             <button
               className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
               onClick={() => dispatch(messiIncrement())}>

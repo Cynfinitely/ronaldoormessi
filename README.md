@@ -20,10 +20,10 @@ This project aims to find answer the question of century. Who is the better : Ro
 - [ ] Stats?
 - [ ] Contact me or support project part
 - [ ] Marketing ?
-- [ ] How to make 3D of players , Spline !!
 - [ ] Deadline 15.01.23
 - [ ] Pomodoro spent : 7
 - [ ] LinkedIn Post
+- [ ] Responsive work
 
 ### Completed Tasks
 
@@ -38,3 +38,4 @@ This project aims to find answer the question of century. Who is the better : Ro
 - [x] How to make global counter
 - [x] Header
   - [x] VS icon maybe?
+- [x] How to make 3D of players , Spline !
