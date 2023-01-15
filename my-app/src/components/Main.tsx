@@ -25,9 +25,9 @@ const Main = () => {
   const status = useSelector((state: RootState) => state.counter.status);
   const dispatch = useDispatch<AppDispatch>();
 
-  const handleRonaldoButtonClick = async () => {
-    const ronaldo = await dispatch(ronaldoIncrement());
-    const setRonaldo = await setRonaldoButtonClicked(true);
+  const handleRonaldoButtonClick = () => {
+    dispatch(ronaldoIncrement());
+    setRonaldoButtonClicked(true);
   };
   const handleMessiButtonClick = () => {
     setMessiButtonClicked(true);
@@ -49,9 +49,12 @@ const Main = () => {
             <>
               {" "}
               {ronaldoButtonClicked ? (
-                <div>
-                  You are Ronaldo Supporter! Ronaldo Supported {ronaldoCount}{" "}
-                  times!
+                <div className="ronaldoAfterText m-2">
+                  <p>
+                    SUIII!!!
+                    <br /> You are Ronaldo Supporter!<br></br>Ronaldo Supported{" "}
+                    {ronaldoCount} times!
+                  </p>
                 </div>
               ) : (
                 <button
@@ -83,8 +86,13 @@ const Main = () => {
             <>
               {" "}
               {messiButtonClicked ? (
-                <div>
-                  You are Messi Supporter! Messi Supported {messiCount} times!
+                <div className="messiAfterText m-2">
+                  <p>
+                    {" "}
+                    ENCARA MESSI!! <br />
+                    You are Messi Supporter! <br></br> Messi Supported{" "}
+                    {messiCount} times!
+                  </p>
                 </div>
               ) : (
                 <button

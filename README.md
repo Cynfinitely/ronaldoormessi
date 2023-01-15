@@ -11,13 +11,8 @@ This project aims to find answer the question of century. Who is the better : Ro
 
 ## To-Do List of project
 
-- [ ] Support Buttons
-
-  - [x] "x times supported"
-  - [x] you supported ronaldo/messi (local or database)
-  - [ ] gifs and animations after button presssed?
-
 - [ ] Marketing ?
+- [ ] Deploy
 - [ ] Deadline 15.01.23
 - [ ] Pomodoro spent : 7
 - [ ] LinkedIn Post
@@ -41,3 +36,8 @@ This project aims to find answer the question of century. Who is the better : Ro
 - [x] Footer
 - [x] Stats?
 - [x] Contact me or support project part
+- [x] Support Buttons
+
+  - [x] "x times supported"
+  - [x] you supported ronaldo/messi (local or database)
+  - [x] gifs and animations after button presssed?
