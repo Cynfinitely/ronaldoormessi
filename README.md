@@ -11,9 +11,6 @@ This project aims to find answer the question of century. Who is the better : Ro
 
 ## To-Do List of project
 
-- [ ] Deploy
-- [x] Deadline 15.01.23
-- [x] Pomodoro spent : 13
 
 ### Completed Tasks
 
@@ -31,6 +28,9 @@ This project aims to find answer the question of century. Who is the better : Ro
   - [x] VS icon maybe?
 - [x] How to make 3D of players , Spline !
 - [x] Main
+- [X] Deploy
+- [x] Deadline 15.01.23
+- [x] Pomodoro spent : 13
 - [x] Footer
 - [x] Stats?
 - [x] Contact me or support project part
