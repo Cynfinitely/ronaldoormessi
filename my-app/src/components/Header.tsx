@@ -1,4 +1,3 @@
-import React from "react";
 import "../assets/css/Header.css";
 import VS_icon from "../assets/images/VS_icon.png";
 
