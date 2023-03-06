@@ -1,5 +1,5 @@
 # Ronaldo V Messi
-[Click here to see project](ronaldovsmessi-b7b75.web.app)
+[Click here to see project](https://ronaldovsmessi-b7b75.web.app/)
 
 This project aims to find answer the question of century. Who is the better : Ronaldo or Messi? You can support you idol by clicking button under the name of it. It has got global counter!
 current votes: 
