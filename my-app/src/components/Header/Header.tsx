@@ -1,5 +1,5 @@
-import "../assets/css/Header.css";
-import VS_icon from "../assets/images/VS_icon.png";
+import "../../assets/css/Header.css";
+import VS_icon from "../../assets/images/VS_icon.png";
 
 const Header = () => {
   return (

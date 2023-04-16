@@ -1,12 +1,12 @@
-import "../assets/css/Main.css";
-import Ronaldo3D from "../assets/images/ronaldo3D.png";
-import Messi3D from "../assets/images/messi3D.png";
-import type { AppDispatch, RootState } from "../redux/store";
+import "../../assets/css/Main.css";
+import Ronaldo3D from "../../assets/images/ronaldo3D.png";
+import Messi3D from "../../assets/images/messi3D.png";
+import type { AppDispatch, RootState } from "../../redux/store";
 import { useSelector, useDispatch } from "react-redux";
 import {
   messiIncrement,
   ronaldoIncrement,
-} from "../redux/slices/counterReducer";
+} from "../../redux/slices/counterReducer";
 import { useState } from "react";
 
 const Main = () => {
