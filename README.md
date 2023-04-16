@@ -1,6 +1,7 @@
 # Ronaldo V Messi
+[Click here to see project](https://ronaldovsmessi-b7b75.web.app/)
 
-This project aims to find answer the question of century. Who is the better : Ronaldo or Messi? You can support you idol by clicking button under the name of it. It has got global counter!
+Ronaldo or Messi is a web application built using React, Firebase, and Tailwind CSS. This application provides a platform for football fans to share their opinions on who is the better player between Ronaldo and Messi.
 
 ## Used techs
 
@@ -8,34 +9,8 @@ This project aims to find answer the question of century. Who is the better : Ro
 2- TypeScript
 3- Tailwind CSS
 4- Redux Toolkit
+5- Firebase
 
-## To-Do List of project
+## Conclusion
 
-
-### Completed Tasks
-
-- [x] Responsive work
-- [x] First Init
-- [x] Install Tailwind
-- [x] Buy me a coffee support
-  - [x] Styling
-  - [x] Drawing general plan
-  - [x] Header
-  - [x] Main
-  - [x] Buttons
-- [x] How to make global counter
-- [x] Header
-  - [x] VS icon maybe?
-- [x] How to make 3D of players , Spline !
-- [x] Main
-- [X] Deploy
-- [x] Deadline 15.01.23
-- [x] Pomodoro spent : 13
-- [x] Footer
-- [x] Stats?
-- [x] Contact me or support project part
-- [x] Support Buttons
-
-  - [x] "x times supported"
-  - [x] you supported ronaldo/messi (local or database)
-  - [x] gifs and animations after button presssed?
+Ronaldo or Messi is a fun project that showcases my skills in React, Firebase, and Tailwind CSS. This project demonstrates my ability to build a responsive web application that integrates with a backend service. Feel free to check out the code and let me know your thoughts.
